@@ -1,0 +1,51 @@
+
+###In Python theres a rule that you nned to learn first, all commands can not have there first letter uppercase or it will not work the only exceptions are the "True" and "False" command Also the quotation are there to tell you that it's a command.###
+##"print" is a command that prints out the things you put in it such as words inside quotation marks we call them strings(example: "Hello world") and you can also print out variables(examples: X="Hi world!", X=1)#
+##If you want to know more about Print command(Yes theres more things i can't tell you here because if i did then it would be like a 5 paragraph document) Use this website(https://www.w3schools.com/python/default.asp) it's super helpfull#
+    print("Equation format: ax^2 + bx + c = 0")
+
+
+    #pull input as a float for each variable 
+    #pull input
+##input takes inputs form the person whos running the command like "1 2" or "help" and the command "try" checks if what the user input is a number or word depending on what the "except" value errors is and theres lot's of diffrent errors as well#
+##The "float" infornt of the "input" is the Python float() function, it's used to return a floating-point number from a number or a string representation of a numeric value.(Example: X=Float(1.2)   print(X)= "1.2" with out float = "1")
+    try:
+        a  = float(input("Enter the coeffectient a (must not be 0):"))
+        if a == 0:
+            # Coeffectient cannont be 0 because that would make the equation linear
+            print("cannot be 0")
+            return
+
+        b = float(input("enter the coeffectient b:"))
+        c = float(input("enter the costant c:"))
+    except ValueError:
+      #catches value errors
+        print("Please enter a numeric value.")
+        return
+
+ 
+    #Calcualtes the discriminant (b^2 -4ac)
+    discriminant = b**2 - 4*a*c
+# check the discriminant to the types of roots
+    if discriminant > 0:
+        # two distinct real roots 
+        root1 = (-b + math.sqrt(discriminant)) / (2*a)
+        root2 = (-b - math.sqrt(discriminant)) / (2*a)
+        print(f"This equation has two real roots: {root1:2f} and {root2:2f}")
+    elif discriminant == 0:
+        # one repeated real root
+        root = -b / (2*a)
+        print(f"This equation has one real root: {root:2f}")
+    else:
+        # not a real root, i haven't learned imagenary numbers yet so this won't include them
+        print(f"This equation has no real soulutions")
+
+if __name__ == "__main__":
+
+
+
+## Now for the "If" "elif" and "else" command:
+if *condition*:<-- This is needed in the code for "if" and others like "else"
+*
+"Elif" is the same as "If" but the diffrent is that when doing a "if" it checks it on its own but "elif" checks after the "if" command
+##
