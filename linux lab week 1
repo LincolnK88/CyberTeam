@@ -1,0 +1,39 @@
+Look up commands
+Notes cd (change directory), pwd (print working directory
+List examples with documentation with
+Absolute path
+Ex- cd /home/user/Documents
+Relative path
+A special directory symbol (. for current directory, .. for parent directory)
+A tilde (~)
+ 
+Exercises
+1. Navigate to your home directory.
+         ​cd ~
+2. List the contents of your home directory.
+          ​ls ~
+3. Change to the /etc directory.
+           cd /etc
+4. Print your current working directory.
+           pwd
+5. Move back to your home directory using an absolute path.
+cd/home/kali
+ 
+Notes ls command (list)
+Def ls list the contents of the current directory, ls -l   list contents in long format, ls –la lists
+All files including hiding files in long format, ls –lh /var/log lists contents of /var/log in readable file sizes.
+ 
+Tree command
+Look up define and list 3-5 examples with definitions.
+ 
+6. List all files in your home directory, including hidden files.
+ls  -la ~
+7. Use the long listing format to display files in /etc, sorted by file size.
+ls  -lS /etc
+8. Display the directory structure of /var/log using tree, limiting the depth to 2 levels.
+tree  -L  2 /var/log
+9. List only the directories in your home directory.
+ls  -d  */
+10. Use ls to display files in /tmp, sorted by modification time.
+​ls  -lt  /tmp 
+ 
