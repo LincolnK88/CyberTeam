@@ -1,0 +1,28 @@
+Solve and show 10 picoctf activites, have a place to show work on how you solved them.
+Pico-CTF #1 (13) (Crypto):
+Copy the coded flag, then paste it to a ROT-13 decoder click analyze and you get the flag.
+Pico-CTF #2 (Mod 26) (Crypto):
+Copy the coded flag, paste it to a ROT-13 decoder, click analyze and you get the flag.
+Pico-CTF #3 (The Numbers) (Crypto):
+put the numbers that are in the image into a A1Z26 decoder, and you get the flag.
+Pico-CTF #4 (Rotation) (Crypto):
+Copy and paste the encrypted flag into a ROT-13 decoder and you get the flag.
+Pico-CTF #5 (Whats net cat) (Genral Skills)
+Used command NC and then you copy and paste what they gave you then you get the flag.
+Pico-CTF #6 (Obidient Cat) (General Skills)
+Download the flag and open it on notes and you get your flag.
+Pico-CTF #7 (Time Machine) (General Skills)
+Download the file and then open it, after that double click on the drop-in file after that
+double click on git file double click on COMMIT_EDITMSG and open in notepad and you get
+your flag.
+Pico-CTF #8 (ASCII numbers)
+Take the numbers that are given to you and copy paste it to an ASCII converter and it gives
+you the code.
+Pico-CTF #9 (First Find) (General Skills)
+They give you a file download it and then it tells you to look for a file called uber-secret.txt
+then you double click on adequate_books file then on more_books file after that
+double click on .secret file after that double click on deeper_secrets then
+deepest_secret then double click one uber-secret.txt and you get the flag.
+Pico-CTF #10 ( Warmed up) (General Skills)
+Just copy and paste what it’s telling you to do and search it up and then you get the number
+then you just put picoCTF{} and the number goes in between the {}
