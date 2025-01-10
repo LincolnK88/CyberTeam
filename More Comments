@@ -46,6 +46,6 @@ if __name__ == "__main__":
 
 ## Now for the "If" "elif" and "else" command:
 if *condition*:<-- This is needed in the code for "if" and others like "else"
-*
-"Elif" is the same as "If" but the diffrent is that when doing a "if" it checks it on its own but "elif" checks after the "if" command
+*Do this*<--This is the part that the code runs if the condition is ture
+"Elif" is the same as "If" but it can only be used after theres already a "if" command and that "Elif" always checks the condition after the "if: condition is flase
 ##
